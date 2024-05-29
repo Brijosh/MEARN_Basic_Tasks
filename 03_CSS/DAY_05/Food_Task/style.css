@@ -1,0 +1,288 @@
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+nav{
+    display: flex;
+    text-align: center;
+    position: sticky;
+
+
+}
+header{
+    text-align:start;
+    background-color: rgb(251, 255, 254);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.221);
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-self: start;
+    position: sticky;
+    top: 0px;
+}
+nav h1{
+    margin-left: 80px;
+    font-family: "Redressed", cursive;
+    font-weight: 900;
+    font-size: 28px;
+
+}
+nav span{
+    color: rgb(251, 140, 43);
+    font-family: "Redressed", cursive;
+}
+nav h4{
+    margin-left: 60px;
+    margin-top: 04px;
+    font-weight: 400;
+}
+i{
+    margin: 6px;
+}
+#now{
+    margin-left: 0px;
+    margin-left: 6PX;
+    font-weight: 500;
+}
+.searchbox{
+    border: 0px;
+    width: 800px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.151);
+    border-radius: 40px;
+    margin-left: 40px; 
+    display: flex;
+    align-items: center;
+}
+.searchbox input{
+    border: none;
+    border-color: rgba(24, 24, 24, 0);
+    margin-left: 10px;
+    background-color: transparent;
+    outline:none;
+
+}
+.searchbox i{
+    margin-left: 20px;
+}
+#cart{
+    margin-top: 8px;
+    margin-left: 40PX;
+}
+#login{
+    background-color: transparent;
+    width: 80px;
+    height:40px ;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+button{
+    margin: 2px;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+}
+#login:hover{
+    background-color: rgb(236, 236, 236);
+}
+#signup{
+    background-color: rgb(236, 236, 236);
+    width: 80px;
+    height:40px ;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;}
+button{
+    margin: 2px;
+    background-color:  transparent;
+    border: none;
+    font-weight: 500;
+}
+#signup:hover{
+    background-color: rgb(223, 222, 222);
+}
+#banner{
+    background-image: url("https://www.foodlocale.in/wp-content/uploads/2023/01/chicken-shawarma.png");
+    width: 100%;
+    height: 350px;
+    background-size: cover;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+}
+#menu{
+    background-color: transparent;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#resname{
+    padding-top: 20px;
+    margin-left: 80px;
+}
+#subtext{
+    display: flex;
+    align-items: center;
+}
+#resname h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+#rating h4{
+    font-weight: 500;
+    margin-right: 8px;
+}
+#dist h4{
+    font-weight: 500;
+    margin-right: 8px;
+}
+#adrs h4{
+    font-weight: 500;
+}
+#resname h4{
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+.list{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.food{
+    background-color: rgb(255, 255, 255);
+    height: 420px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.093);
+}
+.food:hover{
+    margin: 10px;
+}
+.img1{
+    background-image: url('https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Shawarma.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-position: center;
+    border-radius: 40px ;
+
+}
+.img2{
+    background-image: url('https://whereismyspoon.co/wp-content/uploads/2018/06/shawarma-plate.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-position: center;
+    border-radius: 40px ;
+
+}
+.img3{
+    background-image: url('https://www.nonguiltypleasures.com/wp-content/uploads/2023/02/falafel-plate-square.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-position: center;
+    border-radius: 40px ;
+
+}
+.img4{
+    background-image: url('https://www.pipercooks.com/wp-content/uploads/2023/06/shawarma-fries-sq.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-position: center;
+    border-radius: 40px ;
+
+}
+.img5{
+    background-image: url('https://images-cdn.ubuy.co.in/63daf319c6f16d3acf7659a7-barbican-apple-flavor-malt-beverage.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-position: center;
+    border-radius: 40px ;
+
+}
+.food h3{
+    font-weight: 600;
+    margin: 12px;
+}
+.food h4{
+    font-weight: 500;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.rs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rs i{
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.rs i:hover{
+    background-color: rgb(221, 220, 220);
+}
+footer{
+    background-color: rgba(15, 10, 10, 0.961);
+    height: fit-content;
+    width: 100%;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    padding: 20px;
+    height: 100%;
+}
+.loc{
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.loc h3{
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.loc h5{
+    font-weight: 500;
+    margin-top: 8px;
+}
+.soc{
+    margin-top: 40px;
+}
+.loc i{
+    color: rgb(255, 255, 255);
+}
+.opts{
+    height: 200px;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.opts a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

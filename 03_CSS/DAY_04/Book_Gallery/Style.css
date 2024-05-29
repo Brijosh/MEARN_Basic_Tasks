@@ -1,0 +1,90 @@
+*{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(177, 60, 54);
+    position: sticky;
+    top: 0px;
+}
+header h1{
+    color: rgb(233, 245, 255);
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+}
+header h1:hover{
+    color: rgb(38, 38, 38);
+}
+#img{
+    height: 100px;
+    background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-attachment: fixed;
+    width : 100%;
+    height : 400px;
+}
+
+#main{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(114, 41, 37);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cols{
+    height: 500px;
+    width: 360px;
+    background-color: rgba(254, 205, 202, 0.603);
+    border-radius: 40px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.221) ;
+
+}
+.cols img{
+        width: 200px;
+        height: 278px;
+        margin-left: 80px;
+        margin-top: 30px;
+        box-shadow: 0px 4px 25px  rgba(0, 0, 0, 0.454) ;
+
+}
+.cols h2{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.cols h3{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    padding-top: 20px;
+}
+button{
+        width: 80px;
+        height: 24px;
+        font-size: medium;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.col2{
+    color: aliceblue;
+    align-items: center;
+    padding-top: 60px;
+}
+.col1{
+    width: 70%;
+    justify-content: start;
+}
+footer{
+    background-color: rgb(94, 29, 29);
+}

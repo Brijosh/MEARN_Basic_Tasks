@@ -1,0 +1,362 @@
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(240, 237, 238);
+}
+nav{
+    position: sticky;
+}
+header{
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(240, 237, 238);
+    box-shadow: 0px 4px 35px rgba(10, 10, 10, 0.156);
+    position: sticky;
+    z-index: +1;
+}
+
+ul{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+ul li{
+    margin: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 9, 12);
+}
+a:hover{
+    font-weight: 800;
+    color:rgb(44, 102, 110) ;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.178);
+}
+i{
+    margin-right: 6px;
+}
+#hero h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255, 0);
+    position: absolute;
+    top : 35%;
+    left: 34%;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+video{
+    filter: blur(8px);
+   
+}
+.img div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(144, 221, 240, 0.644);
+    top: 174%;
+    left: 36%;
+    box-shadow: 0px 4px 18px rgba(162, 161, 161, 0.867);
+    border-radius: 10px;
+
+}
+.img h2{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(10, 9, 12);
+}
+span{
+    color: rgb(230, 175, 46);
+    background-color: rgb(0,0,0,0);
+}
+#about{
+    margin: 40px;
+}
+#about h1{
+    background-color: transparent;
+    text-align: center;
+    margin: 20px;
+}
+#abtmain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#abtimg{
+    margin: 40px;
+    width: 600px;
+}
+#abtme{
+    margin: 40px;
+    width: 1500px;
+    text-align: justify;
+}
+#abtme h2{
+    text-align: center;
+    margin: 20px;
+}
+#mypro {
+   width: 100%;
+   align-items: center;
+}
+#protitle{
+    display: flex;
+    justify-content: center;
+}
+#mypro h1{
+    align-items: center;
+    text-align: center;
+}
+#procol{
+    display: flex;
+    justify-content:center;
+}
+#p{
+    height: 260px;
+    width: 500px;
+    margin: 40PX;
+    
+}
+#p:hover{
+    height: 300px;
+    width: 540px;
+    transition: 300ms;
+    transition-timing-function: ease-in-out;
+}
+#sert{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#serli{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.serv{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(125, 174, 252);
+    align-items: center;
+    text-align: justify;
+    background: linear-gradient(to top, rgb(142, 251, 178) 50%, rgb(255, 167, 167)50%);
+    transition: all 600ms;
+    transition-timing-function: ease-in-out;
+    background-size: 100% 200%;
+}
+.serv:hover{
+    background-position: bottom;
+}
+.serv h2,p{
+    background-color: transparent;
+    margin: 20px;
+}
+.serv h2{
+text-align: center;
+}
+#contact{
+    margin: 40px;
+}
+#cont input{
+    width: 400px;
+    height: 30px;
+    margin: 6px;
+}
+#cont textarea{
+    height: 150px;
+    width: 400px;
+}
+#cont button{
+    width: 350px;
+    height: 20px;
+}
+@media screen and (max-width:400px) {
+   
+    nav{
+        position: sticky;
+        width: ;
+    }
+    header{
+        top: 0px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(240, 237, 238);
+        box-shadow: 0px 4px 35px rgba(10, 10, 10, 0.156);
+        position: sticky;
+        z-index: +1;
+    }
+    
+    ul{
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px;
+    }
+    ul li{
+        margin: 5px;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(10, 9, 12);
+    }
+    a:hover{
+        font-weight: 800;
+        color:rgb(44, 102, 110) ;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.178);
+    }
+    i{
+        margin-right: 2px;
+        margin-left: 20px;
+    }
+    #hero h1{
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 255, 255, 0);
+        position: absolute;
+        top : 15%;
+        left: 0%;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+    }
+    video{
+        filter: blur(8px);
+       
+    }
+    .img div{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        background-color: rgba(144, 221, 240, 0.644);
+        top: 50%;
+        left: 20%;
+        box-shadow: 0px 4px 18px rgba(162, 161, 161, 0.867);
+        border-radius: 10px;
+    
+    }
+    .img h2{
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(10, 9, 12);
+    }
+    span{
+        color: rgb(230, 175, 46);
+        background-color: rgb(0,0,0,0);
+    }
+    #about{
+        margin: 40px;
+    }
+    #about h1{
+        background-color: transparent;
+        text-align: center;
+        margin: 20px;
+    }
+    #abtmain{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
+    #abtimg{
+        width: 100%;
+        margin: 0px;
+    }
+    #abtme{
+        margin: 0px;
+        width: 100%;
+        text-align: justify;
+    }
+    #abtme h2{
+        text-align: center;
+        margin: 20px;
+    }
+    #mypro {
+       width: 100%;
+       align-items: center;
+    }
+    #protitle{
+        display: flex;
+        justify-content: center;
+    }
+    #mypro h1{
+        align-items: center;
+        text-align: center;
+    }
+    #procol{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    #p{
+        height: fit-content;
+        width: 100%;
+        margin: 0px;
+        
+    }
+    #p:hover{
+        height: 300px;
+        width: 540px;
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    #sert{
+        display: flex;
+        justify-content: center;
+    }
+    #serli{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .serv{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: rgb(125, 174, 252);
+        align-items: center;
+        text-align: justify;
+        background: linear-gradient(to top, rgb(142, 251, 178) 50%, rgb(255, 167, 167)50%);
+        transition: all 600ms;
+        transition-timing-function: ease-in-out;
+        background-size: 100% 200%;
+    }
+    .serv:hover{
+        background-position: bottom;
+    }
+    .serv h2,p{
+        background-color: transparent;
+        margin: 20px;
+    }
+    .serv h2{
+    text-align: center;
+    }
+    #contact{
+        margin: 40px;
+    }
+    #cont input{
+        width: 80%;
+        height: 30px;
+        margin: 6px;
+    }
+    #cont textarea{
+        height: 150px;
+        width: 80%;
+    }
+    #cont button{
+        width: 80%;
+        height: 20px;
+    }
+}

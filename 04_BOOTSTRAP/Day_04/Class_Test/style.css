@@ -1,0 +1,112 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+.head{
+    position: sticky;
+    width: 100%;
+    z-index: +2;
+}
+.headimg{
+    margin-top: 8px;
+}
+.headimg img{
+    height: 40px;
+}
+.topsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbar{
+    width: 435px;
+    height: 40px;
+    margin-top: 8px;
+    padding: 6px;
+    border-radius: 50px;
+    border-color: transparent;
+    border: 1px solid black;
+    align-items: center;
+}
+.searchbar input{
+    border: none;
+    background: transparent;
+    
+}
+.searchbar i{
+    padding: 6px;
+}
+.signin{
+    margin-top: 8px;
+    padding-right: 50px;
+    align-items: center;
+}
+.signin i{
+    padding-right: 12px;
+    padding-left: 12px;
+
+    height: 20px;
+
+}
+.signin button{
+    padding: 12px;
+    border: none;
+    background: transparent;
+}
+ nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 8px;
+    margin-top: 12px;
+
+}
+ul i{
+    padding: 6px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.main ul{
+    padding: 0;
+    margin: 0;
+}
+.main li{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.news input{
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    height: 45px;
+}
+.news button{
+    background-color: black;
+    height: 46px;
+    border: none;
+}
+.base{
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+.base li{
+    font-size: 12px;
+}

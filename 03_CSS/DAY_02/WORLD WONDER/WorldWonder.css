@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    align-items: center;
+    width: 320px;
+    height: 550px;
+    background-color: rgba(240, 231, 216);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.361) ;
+    float: left;
+    margin: 20px;
+}
+img
+{
+    width: 260px;
+    height: 160px;
+    padding: 5px;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 60%;
+    margin: 10px;
+
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+    text-shadow: 1px 8px 20px;
+}
+h2{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 4px 12 px;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+}
+#machupichu{
+    background-color: rgb(255, 202, 132);
+}
+#pyramid{
+    background-color: rgb(253, 171, 144);
+}
+#Eiffel{
+    background-color: rgb(191, 225, 255);
+}
+#colosseum{
+    background-color: rgb(252, 187, 255);
+}

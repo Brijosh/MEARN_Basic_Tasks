@@ -1,0 +1,9 @@
+#stick{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    color: rgb(162, 65, 0);
+    position: sticky;
+    top: 50px;
+    background-color: rgb(189, 189, 251);
+}
