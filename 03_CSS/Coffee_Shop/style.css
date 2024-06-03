@@ -1,0 +1,227 @@
+*{
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(84, 51, 16);
+    padding: 12px;
+    position: sticky;
+    top: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: rgb(248, 244, 225);
+}
+nav i{
+    font-size: 42px;
+    padding: 10px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo h1{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Courgette", cursive;
+    margin: 6px;
+    padding-left: 16px;
+}
+#logo img{
+    border-radius: 100px;
+    margin-left: 30px;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+#list a{
+    text-decoration: none;
+    margin: 8px;
+    padding-left: 50px;
+    color: rgb(248, 244, 225);
+    font-weight: 500;
+    font-size: 20px;
+}
+#hero{
+    background-image:url("https://esquirescoffee.co.uk/wp-content/uploads/2021/02/nathan-dumlao-vbt-Fp3b5FA-unsplash-scaled.jpg");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-position: center;
+}
+#hero img{
+    object-fit: cover;
+}
+#def{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(115, 151, 113);
+    padding: 40px;
+}
+#def h1{
+    padding: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(84, 51, 16);
+}
+#def p{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+#p1{
+    padding-bottom: 0px;
+}
+#types h1{
+    padding: 40px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(84, 51, 16);
+}
+#def{
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 80px;
+}
+.img img{
+    border-radius: 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.191);
+}
+.cont{
+    padding: 60px;
+}
+.cont h3{
+    color: rgb(84, 51, 16);
+
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+#help{
+    position: absolute;
+    background-color: rgb(84, 51, 16);
+    border-radius: 100px;
+    padding: 18px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 88%;
+    right: 02%;
+}
+#help i{
+    font-size: 36px;
+    color:rgb(248, 244, 225);
+}
+#gallery{
+    background-color: rgb(255, 242, 215);
+}
+#gallery h1{
+    padding: 40px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(84, 51, 16);
+}
+.gcol{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+}
+.gcol img{
+    border-radius: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.gcol img:hover{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.617);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; 
+}
+#foot{
+    background-color: rgb(96, 114, 116);
+    padding: 60px 160px 60px 160px;
+    display: flex;
+    justify-content: space-around;
+}
+.items a{
+    text-decoration: none;
+    color: rgb(248, 244, 225);
+    font-weight: 300;
+    font-size: 16px;
+}
+.items li{
+    margin-bottom: 20px;
+}
+.items h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.soc ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.soc i{
+    color: rgb(248, 244, 225);
+    font-weight: 300;
+    font-size: 32px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.form input{
+    border:none ;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+.form div{
+    width: 360px;
+    height: 36px;
+    background-color:rgb(254, 250, 246);
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+}
+.form textarea{
+    border:none ;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+button{
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
