@@ -15,6 +15,8 @@ else
         console.log(`${n3}is larger`);
     }
 
+    console.log("");
+
 if(n1>n2&& n1>n3)
     {
         if(n2>n3)
