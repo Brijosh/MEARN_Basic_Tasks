@@ -1,0 +1,20 @@
+*{
+    font-family: "League Spartan", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(245, 245, 247);
+}
+nav{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.logo{
+    align-items: center;
+}
+.logo h3{
+    font-family: "Satisfy", cursive;
+    font-weight: 500;
+    padding-top: 12px;
+    margin-left: 6px;
+}
