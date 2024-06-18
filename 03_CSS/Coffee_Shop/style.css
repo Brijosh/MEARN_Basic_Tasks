@@ -65,7 +65,7 @@ nav i{
 #def{
     align-items: center;
     justify-content: center;
-    background-color: rgb(115, 151, 113);
+    background-color: rgb(252, 255, 231);
     padding: 40px;
 }
 #def h1{
@@ -86,6 +86,9 @@ nav i{
 }
 #p1{
     padding-bottom: 0px;
+}
+#types{
+    background-color:rgb(252, 255, 231) ;
 }
 #types h1{
     padding: 40px;
@@ -135,7 +138,7 @@ nav i{
     color:rgb(248, 244, 225);
 }
 #gallery{
-    background-color: rgb(255, 242, 215);
+    background-color: rgb(252, 255, 231);
 }
 #gallery h1{
     padding: 40px;
@@ -159,7 +162,7 @@ nav i{
     transition: transform 0.3s ease-in-out; 
 }
 #foot{
-    background-color: rgb(96, 114, 116);
+    background-color: rgb(166, 123, 91);
     padding: 60px 160px 60px 160px;
     display: flex;
     justify-content: space-around;

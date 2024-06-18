@@ -74,15 +74,16 @@ button{
 }
 .row1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .col2{
     color: aliceblue;
     align-items: center;
     padding-top: 60px;
+    margin-right: 600px;
 }
 .col1{
-    width: 70%;
+    width: 10%;
     justify-content: start;
 }
 footer{
