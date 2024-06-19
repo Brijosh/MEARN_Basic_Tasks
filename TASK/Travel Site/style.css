@@ -144,3 +144,124 @@ nav{
 .discover{
     margin-left: 180px;
 }
+.caro{
+    width: 850px;
+    margin-top: 60px;
+
+}
+.abt{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.abt h4{
+    align-items: center;
+    font-weight: 800;
+}
+.cont
+{
+    width: 600px;
+    padding-top:60px;
+    margin-left: 60px;
+    padding-bottom: 60px;
+}
+.cont h1{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.cont p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vlog
+{
+    background-image: url('https://images.unsplash.com/photo-1486037242572-f25faf7505e3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    opacity: 100%;
+    height: 860px;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-position: center;
+    
+}
+.vlogcapo h2{
+    color: white;
+    position: relative;
+    width: 600px;
+
+    top: 300px;
+    left: 80px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.vlogcapo h1{
+    color: white;
+    position: relative;
+    width: 600px;
+    top: 300px;
+    left: 80px;
+    font-size: 56px;
+    font-weight: 900;
+}
+.vlogcapo p{
+    color: white;
+    position: relative;
+    top: 312px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 600px;
+}
+.vlogcapo button{
+    padding: 20px 16px 16px 16px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    position: relative;
+    top: 320px;
+    left: 80px;
+    background-color:black ;
+    color: white;
+}
+.vlogcapo button:hover{
+    background: rgb(0, 112, 163);
+    color: white;
+    border: none;
+}
+.article{
+    background-color: white;
+    width: fit-content;
+    padding: 60px 40px;
+    position: relative;
+    top: -220px;
+    left: 850px;
+    border-radius: 30px;
+}
+.art h4{
+    font-weight: 600;
+}
+.art p{
+    width: 400px;
+}
+.foot{
+    padding: 80px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0px -1px  8px rgba(0, 0, 0, 0.131);
+    color: black;
+}
+.list{
+    align-items: start;
+}
+.list a{
+    font-weight: 600;
+}
+.list li{
+    margin-top: 12px;
+}
+.footlogo h3{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    padding-left: 8px;
+}
