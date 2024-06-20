@@ -69,7 +69,7 @@
 // };
 
 // const temp = (num) => ((num*9/5) + 32);
-// console.log(temp(37));
+// console.log(temp(37))ds
 
 const hello = () => `Hello There!! Good Morning`;
 console.log(hello());
