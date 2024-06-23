@@ -117,4 +117,4 @@ function diff(arr1,arr2)
 }
 let arr1=[1,2,3,4,5,6,7,8,9,10,11]
 let arr2=[2,4,6,9,10,11,40,12]
-console.log(diff(arr1,arr2));
+console.log(diff(arr1,arr2))
