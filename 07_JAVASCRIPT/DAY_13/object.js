@@ -10,32 +10,32 @@ const student={
 // console.log(student.name);
 
 //2 Check rank key is present in student object
+// console.log("rank" in student?'rank is present in student':'rank is not present in student');
+
 //3 add qualifed for higher education or not and update 
-//4 Mark incremented by 10 
-//5 Print details of student object one by one
-
-
-
-
-
-// console.log(student["name"]);
-// console.log("rank" in student);
-// console.log("year" in student);
-
-// student.higherEducation=true;
-// console.log(student);
-
 // student.higherEducation="Qualified";
 // console.log(student);
 
+//4 Mark incremented by 10 
 // student.totalMark+=10;
 // console.log(student);
 
+//5 Print details of student object one by one
+for(let key in student)
+    {
+        console.log(`${key} : ${student[key]}`);
+    }
 
-// for(let key in student)
-//     {
-//         console.log(`${key} : ${student[key]}`);
-//     }
+
+
+
+
+
+
+
+
+
+
 
 // text="one two one two one"
 
