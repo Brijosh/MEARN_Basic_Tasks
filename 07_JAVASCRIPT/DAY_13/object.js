@@ -21,10 +21,10 @@ const student={
 // console.log(student);
 
 //5 Print details of student object one by one
-for(let key in student)
-    {
-        console.log(`${key} : ${student[key]}`);
-    }
+// for(let key in student)
+//     {
+//         console.log(`${key} : ${student[key]}`);
+//     }
 
 
 
@@ -37,12 +37,12 @@ for(let key in student)
 
 
 
-// text="one two one two one"
+text="one two one two one"
 
-// arr= text.split(' ');
+arr= text.split(' ');
 
-// number={};
+number={};
 
-// arr.map(word=> word in number?number[word]+=1:number[word]=1)
+arr.map(word=> word in number?number[word]+=1:number[word]=1)
 
-// console.log(number);
+console.log(number);
