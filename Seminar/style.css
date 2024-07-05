@@ -2,5 +2,6 @@ h1{
 align-items: center;
 }
 img{
-    filter:opacity(00%)
+    filter: sepia(50%) saturate(150%) contrast(172%);
+    
 }

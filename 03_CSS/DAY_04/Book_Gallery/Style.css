@@ -22,16 +22,16 @@ header h1:hover{
     color: rgb(38, 38, 38);
 }
 #img{
-    height: 100px;
-    background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.unsplash.com/photo-1533669955142-6a73332af4db?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-attachment: fixed;
     width : 100%;
-    height : 400px;
+    height : 600px;
 }
 
 #main{
     width: 100%;
-    height: 800px;
+    height: 600px;
+    padding: 20px;
     background-color: rgb(114, 41, 37);
     display: flex;
     justify-content: space-evenly;
@@ -65,13 +65,16 @@ header h1:hover{
     padding-top: 20px;
 }
 button{
-        width: 80px;
-        height: 24px;
-        font-size: medium;
+        font-size: large;
         text-align: center;
-        font-weight: 700;
+        font-weight: 900;
+        color: #000000;
         margin-top: 20px;
+        padding: 8px 20px 8px 20px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
 }
+
 .row1{
     display: flex;
     justify-content: space-evenly;
