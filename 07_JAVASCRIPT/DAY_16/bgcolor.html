@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgcolor</title>
+</head>
+<body>
+    <h1 class="bg">CHANGE COLOR</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, a tenetur. Ab praesentium quisquam dicta adipisci natus molestias consequatur harum possimus et eligendi, placeat doloribus esse! Quae quidem adipisci odit.
+        Rerum doloremque numquam excepturi vitae quasi animi, praesentium cupiditate distinctio quos facilis, at veritatis accusantium ducimus unde cum dolorem? Nesciunt, suscipit vero rem temporibus quo eveniet! Blanditiis, autem? Nam, dolor.
+    </p>
+
+    <h6 class="bg">welocme to ooty nice to meet you</h6>
+    <button onclick="bgChange()">Try me</button>
+
+    <script>
+        function bgChange()
+        {
+            const doc=document.querySelectorAll('.bg');
+            console.log(Array.from(doc).map(item=> item.style.background='blue'));
+            
+        }
+        
+    </script>
+</body>
+</html>

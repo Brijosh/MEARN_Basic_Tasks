@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list color</title>
+</head>
+<body>
+    <h1>DOM getElementById</h1>
+    <ul type="none">
+        <li id="change">This is the first paragraph</li>
+        <li>This is the second paragraph</li>
+        <li>This is the third paragraph</li>
+    </ul>
+    <button onclick="green()">Green</button><button onclick="blue()">Blue</button><button onclick="red()">Red</button>
+    <script>
+        function green()
+        {
+            let doc=document.getElementById('change');
+            doc.style.color='green'
+        }
+        function blue()
+        {
+            let doc=document.getElementById('change');
+            doc.style.color='blue'
+        }
+        function red()
+        {
+            let doc=document.getElementById('change');
+            doc.style.color='red'
+        }
+    </script>
+</body>
+</html>

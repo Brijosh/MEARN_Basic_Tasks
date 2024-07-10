@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1 id="head">Welcome to DOM</h1>
+    <h2 class="cls">DOM list</h2>
+    <ol>
+        <li class="cls">document.getElementById("Id_Name")</li>
+        <li>document.getElementByClassName("Class_Name")</li>
+        <li>document.getElementByTagName("Tag_Name")</li>
+        <li>document.querySelector(".class_name,#id_name")</li>
+        <button onclick="colorChange()">Click Me</button>
+
+    </ol>
+    <script>
+        function colorChange()
+        {
+            const doc=document.getElementById('head');
+       console.log(doc);
+       doc.style.color='red'
+        }
+       
+
+       const doc1=document.getElementsByClassName("cls");
+       console.log(doc1);
+       console.log(Array.from(doc1));
+       console.log(Array.from(doc1).map(item=> item.style.color="blue"));
+
+       const doc2=document.getElementsByTagName("li");
+       console.log(doc2);
+       console.log([...doc2]);
+       console.log([...doc2].map(item=> item.style.color="green"));
+
+       const doc3=document.querySelector(".cls");
+       console.log(doc3);
+
+       const doc4=document.querySelectorAll(".cls");
+       console.log(doc4);
+    </script>
+</body>
+</html>
