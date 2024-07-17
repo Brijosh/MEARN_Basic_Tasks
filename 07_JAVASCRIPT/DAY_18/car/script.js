@@ -67,4 +67,5 @@ function remove()
 function clearRecord()
 {
     localStorage.clear()
+    result.innerHTML=``
 }
