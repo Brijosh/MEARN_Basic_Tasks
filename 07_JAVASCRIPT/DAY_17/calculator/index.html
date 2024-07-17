@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!-- tailswind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- java -->
+    <script src="./script.js"></script>
+</head>
+
+<body class=" ">
+    <div class="bg-amber-400 text-center w-fit mx-auto m-[80px]	 p-[40px] rounded-[5%]">
+        <input type="text" id="result" class="font-[600] text-[24px] rounded-[10px] text-slate-700 h-[50px] w-[260px]">
+        <div class="m-3 ">
+            <button id="seven" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(7)">7</button>
+            <button id="eight" class="  bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(8)">8</button>
+            <button id="nine" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(9)">9</button>
+            <button id="multi" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(`*`)">×</button>
+        </div>
+        <div class="m-3 ">
+            <button id="four" class="  bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(4)">4</button>
+            <button id="five" class="  bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(5)">5</button>
+            <button id="six" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(6)">6</button>
+            <button id="subs" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(`-`)">-</button>
+        </div>
+        <div class="m-3">
+            <button id="one" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(1)">1</button>
+            <button id="two" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(2)">2</button>
+            <button id="three" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(3)">3</button>
+            <button id="add" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(`+`)">+</button>
+        </div>
+        <div class="m-3">
+            <button id="clear" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="clearScreen()">AC</button>
+            <button id="zero" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(0)">0</button>
+            <button id="divide" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="displayNumber(`/`)">÷</button>
+            <button id="equal" class=" bg-slate-600 rounded-[50%] font-[700] text-slate-200 text-[24px] w-[60px] h-[60px]" onclick="operations()">=</button>
+        </div>
+        <button id="del" class="  bg-slate-600 rounded-[29px] font-[700] text-slate-200 text-[24px] w-[260px] h-[50px]" onclick="backspace()">&#9003;</button>
+
+    </div>
+
+</body>
+
+</html>
