@@ -30,31 +30,15 @@
     </div>
 </body>
 <script>
-    // AJAX API CALL
-    // 1) Create XMLHTTPRequest Object
-    var requestObj = new XMLHttpRequest();
+    // Normal FETCH
+    // 1) fetch() asynchronous event ->response-> .then
+    fetch('https://jsonplaceholder.typicode.com/todos') //by default get method is used in fetch() ->object data
 
-    // 2) Connect or API Call
-    requestObj.open('get','https://jsonplaceholder.typicode.com/todos')
+    .then(data=>data.json())//object-> the data response is stored in data and converted to array using .json
+    .then(todo=>displayArrayData(todo))// array passed through function()
+    
 
-    // 3) send Requset
-    requestObj.send();
-
-    // 4) set onreadystatechange()
-    requestObj.onreadystatechange=()=>{
-        if(requestObj.status==200)
-    {
-        console.log(requestObj.responseText);
-        arrayData=JSON.parse(requestObj.responseText)
-        console.log(arrayData);
-        displayArrayData(arrayData);
-    }
-    else{
-        alert("Can't Fetch Data")
-    }
-    }
-
-    // 5) display array data
+    // 2) display array data
     function displayArrayData(arrayData)
     {
         for(let todo of arrayData)

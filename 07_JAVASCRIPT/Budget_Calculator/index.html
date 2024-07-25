@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WealthWise</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- FAV -->
+    <link rel="icon" type="png/image" href="./img/money-sack.png">
+
+    <!-- js -->
+    <script src="./script.js"></script>
+
+    <style>
+        * {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-gray-50 bg-[url('https://images.unsplash.com/photo-1625225233840-695456021cde?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+    <nav class="p-4 flex justify-between items-center	bg-gray-300 bg-opacity-0 ">
+        <a href="#" class="flex ms-[20px]">
+            <div class="self-center">
+                <img src="./img/money-bag.png" width="40px" alt="">
+            </div>
+            <div class="self-end ">
+                <h1 class="text-3xl font-extrabold text-gray-700 ms-[8px]">WealthWise</h1>
+            </div>
+        </a>
+
+    </nav>
+    <div class="grid  place-content-center mt-10">
+        <div class="text-center py-[60px] px-[60px] shadow-lg mt-5 rounded-[15px] p bg-white">
+
+            <h2 class="text-2xl font-extrabold text-gray-700"> Get Started With</h2>
+            <h2 class="text-2xl font-extrabold text-emerald-600 mb-10"> WealthWise Budget Tracker</h2>
+            <div class="flex flex-col justify-around">
+                <input type="text"
+                    class="my-2 px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition duration-150 ease-in-out"
+                    placeholder="Enter Username" name="" id="uNameInput">
+
+                <input type="email" placeholder="Enter Email Address"
+                    class="my-2 px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 transition duration-150 ease-in-out"
+                    name="" id="emailAddInput">
+
+                <input type="password" placeholder="Enter Password"
+                    class="my-2 px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 transition duration-150 ease-in-out"
+                    name="" id="pswrdInput">
+                <button
+                    class="my-2 px-6 py-3 bg-emerald-700 text-white font-semibold rounded-lg shadow-md hover:bg-green-500  transition duration-150 ease-in-out" onclick="signup()">Sign
+                    Up</button>
+                <p class="mt-4">Already have an account ? <button class="font-bold text-emerald-700 "
+                        onclick="login()">Login</button></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
