@@ -8,3 +8,4 @@ vowels=['a','e','i','o','u','A','E','I','O','U']
 
 const string=["Hello","how","are","you"]
 console.log(string.map(str=> Array.from(str).filter(char=> vowels.includes(char)).length));
+console.log(Array.from(str));

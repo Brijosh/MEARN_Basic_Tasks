@@ -1,4 +1,4 @@
-pattern = 'ABCABBC'
+pattern = 'BCABBC'
 //find first recursive character from the given pattern
 output =
     arr = pattern.split('');
@@ -8,6 +8,6 @@ for(let letter of pattern)
         console.log(`First Recursive ${letter} `) 
         break;
     } else { 
-        output[letter] = 1 
+        output[letter] = letter 
     }}
  
