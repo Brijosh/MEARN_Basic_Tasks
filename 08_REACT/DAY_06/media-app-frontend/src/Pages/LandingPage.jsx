@@ -85,7 +85,7 @@ function LandingPage() {
                             </div>
                         </div>
                         <div>
-                            <iframe src="https://youtu.be/LnCFD09xHOM?si=BTwgB36HBBEIgo4W&t=15" height={500} width={700} frameborder="0"></iframe>
+                        <iframe width="800" height="500" src="https://www.youtube.com/embed/iptmAM2k7PQ?si=LxqjGY9MTlm5mPlT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

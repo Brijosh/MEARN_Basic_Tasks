@@ -1,0 +1,136 @@
+    
+    -----------------------REACT -------------------------
+
+        PROJECT CREATION USING CREATE_REACT_APP
+
+        1. npx create-react-app demo-app
+        2. cd demo-app
+        3. code .
+        4. npm start
+
+
+        PROJECT CREATION USING VITE  : https://vitejs.dev/
+
+        1. npx create-vite@latest demo-app -template react 
+        2. cd demo-app
+        3. code .
+        4. npm install (For creating node modules)
+        5. npm run dev
+        
+------------------------------------------------------------------------------------------------------------------
+
+    INSTALLING 3rd Party LIBRARIES
+
+    1. MDB BOOTSTRAP : https://mdbootstrap.com/
+     STEPS : go to https://mdbootstrap.com/ ->docs->react -> get started ->installation
+
+      npm i mdb-react-ui-kit
+
+      and paste import "mdb-react-ui-kit/dist/css/mdb.min.css"; in main.jsx
+    
+    2. FONT AWSOME
+      npm install @fortawesome/fontawesome-free
+
+      CSS IMPORT : Add the following lines in your main.jsx file before the app.js file import:
+      MAIN.JSX
+      import '@fortawesome/fontawesome-free/css/all.min.css';
+
+      [OR INSTALL THESE 3 COMMANDS IN TERMINAL]
+      
+        npm install @fortawesome/fontawesome-svg-core
+        npm install @fortawesome/free-solid-svg-icons
+        npm install @fortawesome/react-fontawesome
+        and 
+        // Import FontAwesomeIcon component
+
+           import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+        // Import the icons you want to use
+
+           import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+    3. GOOGLE FONTS
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+    4.REACT Material ui  https://mui.com/material-ui/
+
+    npm install @mui/material @emotion/react @emotion/styled
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+                                    MEDIA APP FRONTEND CREATION
+                      -------------------------------------------------------------
+                       1.Project Creation - npm create vite@latest media-app-frontend -- --template react
+                       2.cd media-app-frontend
+                       3.npm install
+                       4.Run the project - npm run dev
+                       5.clean your project code (unwanted codes)
+                       6.Install 3rd party libraries
+                                      
+                       -> React Bootstrap - https://react-bootstrap.github.io/
+
+                                            npm install react-bootstrap bootstrap
+
+                                        <link
+                                         rel="stylesheet"
+                                         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+                                         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+                                         crossorigin="anonymous"
+                                        />
+                                       Also place this in head section of index.html to get proper css in the above                 
+
+                      ->Bootswatch - To apply Themes to our projects
+                                        Go to https://bootswatch.com/ and select the required theme click arrow near download option,
+                                        select bootswatch.min.css and click it.Automatically the file get downloaded namely bootswatch.min.css
+                                        after that cut that file and paste it in the src folder of our project 
+
+                                        then paste import './bootstrap.min.css' this line in main.jsx   
+
+                      -> Font Awsome - npm install @fortawesome/fontawesome-free
+                                      
+                                       CSS IMPORT : Add the following lines in your main.jsx file before the app.js file import: MAIN.JSX
+
+                                       import '@fortawesome/fontawesome-free/css/all.min.css'; 
+       
+                                        
+
+
+                      -> Google-Fonts - <link rel="preconnect" href="https://fonts.googleapis.com">
+                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+                     -> React Icons - npm install react-icons --save
+
+                                      Import the import statement of the respective icon to the top of the file
+
+                                      import { FaBeer } from 'react-icons/fa';
+
+                                      Use  <FaBeer />  component to the required sections of our jsx file
+
+                                      example -  <h1>Welcome <FaBeer /></h1>
+                                        
+                                        
+
+                     7.Routing using React Router
+
+                                      https://reactrouter.com/en/main
+                                       - install -   npm install react-router-dom
+                                       - BrowserRouter -  A <BrowserRouter> stores the current location in the browser's address
+                                        bar using clean URLs and navigates using the browser's built-in history stack.
+                                        A component that uses the HTML5 history API to keep your UI in sync with the URL. 
+
+                                       - Routes - A component that groups together multiple Route elements.use Routes to define a set of where routes,  each Route inside it represents a different path and its associated component. 
+
+                                       - Route - A component that defines a path and the component to render when the path matches the current URL.use Route within Routes to specify the URL path and the component that should be rendered when the path is accessed.               
+
+
+
+

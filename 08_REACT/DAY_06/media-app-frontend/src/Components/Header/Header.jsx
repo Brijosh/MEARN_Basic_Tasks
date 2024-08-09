@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -18,7 +18,8 @@ function Header() {
             />{' '}
             CinePro Media Player
           </Navbar.Brand>
-          <Button variant="info" className='px-4 fs-5 fw-semibold'>Get Started</Button>{' '}
+          <Link to={'/home'}><Button variant="info" className='px-4 fs-5 fw-semibold'>Get Started</Button>{' '}
+          </Link>
           </Navbar>
 
     </>
